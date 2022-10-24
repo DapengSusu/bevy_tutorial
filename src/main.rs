@@ -9,7 +9,6 @@ fn main() {
             width: 480.0,
             height: 320.0,
             title: "bevy_tuturial".to_string(),
-            present_mode: bevy::window::PresentMode::AutoNoVsync,
             resizable: false,
             ..Default::default()
         })
